@@ -70,3 +70,9 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'active_model_serializers'
+gem 'grape'
+gem 'grape-active_model_serializers'
+gem 'grape-swagger-rails'
+gem 'rack-cors', require: 'rack/cors'
+
