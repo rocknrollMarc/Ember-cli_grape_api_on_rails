@@ -40,7 +40,7 @@ group :development, :test do
   gem 'capybara-screenshot'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
-  gem 'ffaker'
+  gem 'faker'
   gem 'poltergeist'
 
   gem 'pry-rails'
