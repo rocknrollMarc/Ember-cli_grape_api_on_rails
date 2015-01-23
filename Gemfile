@@ -46,7 +46,6 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-nav'
   gem 'pry-stack_explorer'
-  gem 'pry-theme'
   gem "rspec-rails"
   gem "rubocop"
   gem "shoulda-matchers"
@@ -71,7 +70,7 @@ group :development, :test do
 end
 
 gem 'active_model_serializers'
-gem 'grape'
+gem 'grape', '0.9.0'
 gem 'grape-active_model_serializers'
 gem 'grape-swagger-rails'
 gem 'rack-cors', require: 'rack/cors'
