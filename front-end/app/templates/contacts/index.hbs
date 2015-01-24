@@ -1,0 +1,13 @@
+<ul>
+  {{#each}}
+    <li>
+      {{#link-to 'contact' this}}
+        {{lastName}}
+        {{firstName}}
+      {{/link-to}}
+    </li>
+  {{else}}
+    <li>No Contacts found.</li>
+  {{/each}}
+</ul
+
